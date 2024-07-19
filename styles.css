@@ -18,6 +18,25 @@ body {
     padding-bottom: 3rem;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+}
+
 img {
-    display: block;
+    display:block;
+    width: 150px;
+    height: 150px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
 }

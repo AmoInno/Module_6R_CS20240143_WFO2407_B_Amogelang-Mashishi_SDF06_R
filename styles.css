@@ -20,23 +20,42 @@ body {
 
 .container{
     display: flex;
+    padding-top: 20px;
     justify-content: center;
+}
+
+.profile-image{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: solid 6px #468171;
 }
 
 img {
     display:block;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 190px;
 }
 
 .profile {
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+.profile-user-settings{
+    display: flex;
 }
 
 .gallery{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:10px;
+}
+
+.gallery-item-info, .gallery-item-type{
+    display: none;
+}
+
+.first-row{
+    height: 280px;
 }

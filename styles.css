@@ -29,6 +29,13 @@ body {
     height: 180px;
     border-radius: 50%;
     border: solid 6px #468171;
+    overflow: hidden;
+    display: flex;
+}
+
+.profile-image img{
+    width: 100%;
+    height: auto;
 }
 
 img {
@@ -40,6 +47,12 @@ img {
 .profile {
     display: flex;
     align-items: center;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .profile-user-settings{
@@ -56,6 +69,15 @@ img {
     display: none;
 }
 
+img:hover{
+    opacity: 0.5;
+}
+
 .first-row{
     height: 280px;
+}
+
+.profile-stats{
+    display: flex;
+    flex-direction: row;
 }
